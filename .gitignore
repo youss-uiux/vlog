@@ -1,0 +1,50 @@
+# Backend
+backend/target/
+backend/.mvn/
+backend/mvnw
+backend/mvnw.cmd
+*.class
+*.jar
+!backend/target/*.jar
+*.war
+*.ear
+*.log
+
+# Frontend
+frontend/node_modules/
+frontend/.expo/
+frontend/.expo-shared/
+frontend/npm-debug.*
+frontend/yarn-error.log
+frontend/yarn.lock
+frontend/package-lock.json
+
+# React Native
+frontend/ios/Pods/
+frontend/ios/build/
+frontend/android/app/build/
+frontend/android/.gradle/
+frontend/android/build/
+*.pbxuser
+*.xcuserstate
+*.xcworkspace
+!frontend/ios/*.xcworkspace/contents.xcworkspacedata
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Temporary files
+/tmp/
+*.tmp
+*.bak
+*.cache
+
+# Environment files
+.env
+.env.local
+.env.production
